@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28C83798263844F80062BFB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C83797263844F80062BFB3 /* LaunchScreen.storyboard */; };
+		AFC823E55DA57A87E3437D3E /* Pods_CasaInteligente.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF99715CC31C888F6D78A6C /* Pods_CasaInteligente.framework */; };
+		C8231533262760880065CFE0 /* IMG_20210413_220804.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8231532262760860065CFE0 /* IMG_20210413_220804.jpg */; };
+		C8231537262761080065CFE0 /* 21_Vertical_House.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C8231536262761080065CFE0 /* 21_Vertical_House.jpeg */; };
+		C8F8A5982629F459003ACACD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C8F8A5972629F459003ACACD /* logo.png */; };
+		CE41558926355B4700579F77 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE41558826355B4700579F77 /* LogInViewController.swift */; };
+		CE60CFFD2626647D00D32E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60CFFC2626647D00D32E91 /* AppDelegate.swift */; };
+		CE60CFFF2626647D00D32E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60CFFE2626647D00D32E91 /* ViewController.swift */; };
+		CE60D0022626647D00D32E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE60D0002626647D00D32E91 /* Main.storyboard */; };
+		CE60D0042626647D00D32E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE60D0032626647D00D32E91 /* Assets.xcassets */; };
+		CE8A8D3D2636FA560020CC45 /* QRCodeScannerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8A8D3E2636FA560020CC45 /* QRCodeScannerFramework.framework */; };
+		CE8A8D3F2636FA600020CC45 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8A8D402636FA600020CC45 /* SwiftyJSON.framework */; };
+		CE8A8D43263701710020CC45 /* CameraQrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8D42263701710020CC45 /* CameraQrViewController.swift */; };
+		CE8A8D452637030A0020CC45 /* RegistrarUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8D442637030A0020CC45 /* RegistrarUsuarioViewController.swift */; };
+		CE8A8D68263738CA0020CC45 /* RegistrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8D67263738CA0020CC45 /* RegistrarViewController.swift */; };
+		CE8A8D6C2637CA4C0020CC45 /* AddSensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8D6B2637CA4C0020CC45 /* AddSensorViewController.swift */; };
+		CE8A8D6E2637CA640020CC45 /* AddHabitacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8D6D2637CA640020CC45 /* AddHabitacionViewController.swift */; };
+		CEABEFC926392080009618B9 /* PruebasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABEFC826392080009618B9 /* PruebasViewController.swift */; };
+		CEC56EBE2634F098008AF6FB /* SensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC56EBD2634F098008AF6FB /* SensorViewController.swift */; };
+		CED296D82635B99500892C34 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED296D92635B99500892C34 /* Alamofire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28C83797263844F80062BFB3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CF99715CC31C888F6D78A6C /* Pods_CasaInteligente.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CasaInteligente.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1EDEB560FF4C4272117E76 /* Pods-CasaInteligente.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CasaInteligente.release.xcconfig"; path = "Pods/Target Support Files/Pods-CasaInteligente/Pods-CasaInteligente.release.xcconfig"; sourceTree = "<group>"; };
+		619B41740805D954AE61A030 /* Pods-CasaInteligente.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CasaInteligente.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CasaInteligente/Pods-CasaInteligente.debug.xcconfig"; sourceTree = "<group>"; };
+		C8231532262760860065CFE0 /* IMG_20210413_220804.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_20210413_220804.jpg; sourceTree = "<group>"; };
+		C8231536262761080065CFE0 /* 21_Vertical_House.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 21_Vertical_House.jpeg; sourceTree = "<group>"; };
+		C8F8A5972629F459003ACACD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		CE41558826355B4700579F77 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		CE60CFF92626647D00D32E91 /* CasaInteligente.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CasaInteligente.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE60CFFC2626647D00D32E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE60CFFE2626647D00D32E91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE60D0012626647D00D32E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE60D0032626647D00D32E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE60D0082626647D00D32E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8A8D3E2636FA560020CC45 /* QRCodeScannerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QRCodeScannerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8A8D402636FA600020CC45 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8A8D42263701710020CC45 /* CameraQrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraQrViewController.swift; sourceTree = "<group>"; };
+		CE8A8D442637030A0020CC45 /* RegistrarUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarUsuarioViewController.swift; sourceTree = "<group>"; };
+		CE8A8D67263738CA0020CC45 /* RegistrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarViewController.swift; sourceTree = "<group>"; };
+		CE8A8D6B2637CA4C0020CC45 /* AddSensorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSensorViewController.swift; sourceTree = "<group>"; };
+		CE8A8D6D2637CA640020CC45 /* AddHabitacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitacionViewController.swift; sourceTree = "<group>"; };
+		CEABEFC826392080009618B9 /* PruebasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebasViewController.swift; sourceTree = "<group>"; };
+		CEC56EBD2634F098008AF6FB /* SensorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorViewController.swift; sourceTree = "<group>"; };
+		CED296D92635B99500892C34 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE60CFF62626647D00D32E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8A8D3F2636FA600020CC45 /* SwiftyJSON.framework in Frameworks */,
+				CE8A8D3D2636FA560020CC45 /* QRCodeScannerFramework.framework in Frameworks */,
+				AFC823E55DA57A87E3437D3E /* Pods_CasaInteligente.framework in Frameworks */,
+				CED296D82635B99500892C34 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C2B350DD30A8822AEB48874 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A8D402636FA600020CC45 /* SwiftyJSON.framework */,
+				CE8A8D3E2636FA560020CC45 /* QRCodeScannerFramework.framework */,
+				CED296D92635B99500892C34 /* Alamofire.framework */,
+				2CF99715CC31C888F6D78A6C /* Pods_CasaInteligente.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B62BB4C5FA079BFAF492B063 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				619B41740805D954AE61A030 /* Pods-CasaInteligente.debug.xcconfig */,
+				4B1EDEB560FF4C4272117E76 /* Pods-CasaInteligente.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE60CFF02626647D00D32E91 = {
+			isa = PBXGroup;
+			children = (
+				CE60CFFB2626647D00D32E91 /* CasaInteligente */,
+				CE60CFFA2626647D00D32E91 /* Products */,
+				B62BB4C5FA079BFAF492B063 /* Pods */,
+				6C2B350DD30A8822AEB48874 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE60CFFA2626647D00D32E91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE60CFF92626647D00D32E91 /* CasaInteligente.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE60CFFB2626647D00D32E91 /* CasaInteligente */ = {
+			isa = PBXGroup;
+			children = (
+				CE60CFFC2626647D00D32E91 /* AppDelegate.swift */,
+				CE8A8D41263701410020CC45 /* Controllers */,
+				CE60D0002626647D00D32E91 /* Main.storyboard */,
+				28C83797263844F80062BFB3 /* LaunchScreen.storyboard */,
+				CE60D0082626647D00D32E91 /* Info.plist */,
+				CE60D0032626647D00D32E91 /* Assets.xcassets */,
+				CE60D00E262664ED00D32E91 /* Imagenes */,
+			);
+			path = CasaInteligente;
+			sourceTree = "<group>";
+		};
+		CE60D00E262664ED00D32E91 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				C8231536262761080065CFE0 /* 21_Vertical_House.jpeg */,
+				C8F8A5972629F459003ACACD /* logo.png */,
+				C8231532262760860065CFE0 /* IMG_20210413_220804.jpg */,
+			);
+			path = Imagenes;
+			sourceTree = "<group>";
+		};
+		CE8A8D41263701410020CC45 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE60CFFE2626647D00D32E91 /* ViewController.swift */,
+				CE8A8D67263738CA0020CC45 /* RegistrarViewController.swift */,
+				CE8A8D442637030A0020CC45 /* RegistrarUsuarioViewController.swift */,
+				CE41558826355B4700579F77 /* LogInViewController.swift */,
+				CE8A8D42263701710020CC45 /* CameraQrViewController.swift */,
+				CEC56EBD2634F098008AF6FB /* SensorViewController.swift */,
+				CE8A8D6B2637CA4C0020CC45 /* AddSensorViewController.swift */,
+				CE8A8D6D2637CA640020CC45 /* AddHabitacionViewController.swift */,
+				CEABEFC826392080009618B9 /* PruebasViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE60CFF82626647D00D32E91 /* CasaInteligente */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE60D00B2626647D00D32E91 /* Build configuration list for PBXNativeTarget "CasaInteligente" */;
+			buildPhases = (
+				65450F62C1B6AFD197676362 /* [CP] Check Pods Manifest.lock */,
+				CE60CFF52626647D00D32E91 /* Sources */,
+				CE60CFF62626647D00D32E91 /* Frameworks */,
+				CE60CFF72626647D00D32E91 /* Resources */,
+				08F315973F65DDC26AC88520 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CasaInteligente;
+			productName = CasaInteligente;
+			productReference = CE60CFF92626647D00D32E91 /* CasaInteligente.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE60CFF12626647D00D32E91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Brayan Romero";
+				TargetAttributes = {
+					CE60CFF82626647D00D32E91 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE60CFF42626647D00D32E91 /* Build configuration list for PBXProject "CasaInteligente" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE60CFF02626647D00D32E91;
+			productRefGroup = CE60CFFA2626647D00D32E91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE60CFF82626647D00D32E91 /* CasaInteligente */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE60CFF72626647D00D32E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE60D0042626647D00D32E91 /* Assets.xcassets in Resources */,
+				C8F8A5982629F459003ACACD /* logo.png in Resources */,
+				CE60D0022626647D00D32E91 /* Main.storyboard in Resources */,
+				28C83798263844F80062BFB3 /* LaunchScreen.storyboard in Resources */,
+				C8231533262760880065CFE0 /* IMG_20210413_220804.jpg in Resources */,
+				C8231537262761080065CFE0 /* 21_Vertical_House.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F315973F65DDC26AC88520 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CasaInteligente/Pods-CasaInteligente-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCodeScannerFramework/QRCodeScannerFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeScannerFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CasaInteligente/Pods-CasaInteligente-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65450F62C1B6AFD197676362 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CasaInteligente-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE60CFF52626647D00D32E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8A8D43263701710020CC45 /* CameraQrViewController.swift in Sources */,
+				CE8A8D452637030A0020CC45 /* RegistrarUsuarioViewController.swift in Sources */,
+				CE8A8D6C2637CA4C0020CC45 /* AddSensorViewController.swift in Sources */,
+				CE8A8D68263738CA0020CC45 /* RegistrarViewController.swift in Sources */,
+				CE60CFFF2626647D00D32E91 /* ViewController.swift in Sources */,
+				CEABEFC926392080009618B9 /* PruebasViewController.swift in Sources */,
+				CE60CFFD2626647D00D32E91 /* AppDelegate.swift in Sources */,
+				CEC56EBE2634F098008AF6FB /* SensorViewController.swift in Sources */,
+				CE41558926355B4700579F77 /* LogInViewController.swift in Sources */,
+				CE8A8D6E2637CA640020CC45 /* AddHabitacionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE60D0002626647D00D32E91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE60D0012626647D00D32E91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE60D0092626647D00D32E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CE60D00A2626647D00D32E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE60D00C2626647D00D32E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 619B41740805D954AE61A030 /* Pods-CasaInteligente.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSSBUKMBK5;
+				INFOPLIST_FILE = CasaInteligente/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = casaInteligente;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE60D00D2626647D00D32E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B1EDEB560FF4C4272117E76 /* Pods-CasaInteligente.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSSBUKMBK5;
+				INFOPLIST_FILE = CasaInteligente/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CasaInteligente;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE60CFF42626647D00D32E91 /* Build configuration list for PBXProject "CasaInteligente" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE60D0092626647D00D32E91 /* Debug */,
+				CE60D00A2626647D00D32E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE60D00B2626647D00D32E91 /* Build configuration list for PBXNativeTarget "CasaInteligente" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE60D00C2626647D00D32E91 /* Debug */,
+				CE60D00D2626647D00D32E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE60CFF12626647D00D32E91 /* Project object */;
+}
