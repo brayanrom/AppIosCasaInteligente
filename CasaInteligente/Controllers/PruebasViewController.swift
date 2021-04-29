@@ -17,7 +17,7 @@ class PruebasViewController: UIViewController {
         tableView.dataSource=self
         
         view.addSubview(tableView)
-        
+          
     }
 
     
