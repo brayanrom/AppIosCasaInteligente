@@ -17,11 +17,9 @@
 		CE60CFFF2626647D00D32E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60CFFE2626647D00D32E91 /* ViewController.swift */; };
 		CE60D0022626647D00D32E91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE60D0002626647D00D32E91 /* Main.storyboard */; };
 		CE60D0042626647D00D32E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE60D0032626647D00D32E91 /* Assets.xcassets */; };
+		CE6405BA2644BAAD005234B3 /* InfoPerfilUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6405B92644BAAD005234B3 /* InfoPerfilUsuarioViewController.swift */; };
 		CE8A8D3D2636FA560020CC45 /* QRCodeScannerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8A8D3E2636FA560020CC45 /* QRCodeScannerFramework.framework */; };
 		CE8A8D3F2636FA600020CC45 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8A8D402636FA600020CC45 /* SwiftyJSON.framework */; };
-		CE8A8D43263701710020CC45 /* CameraQrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8D42263701710020CC45 /* CameraQrViewController.swift */; };
-		CE8A8D452637030A0020CC45 /* RegistrarUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8D442637030A0020CC45 /* RegistrarUsuarioViewController.swift */; };
-		CE8A8D68263738CA0020CC45 /* RegistrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8D67263738CA0020CC45 /* RegistrarViewController.swift */; };
 		CE8A8D6C2637CA4C0020CC45 /* AddSensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8D6B2637CA4C0020CC45 /* AddSensorViewController.swift */; };
 		CE8A8D6E2637CA640020CC45 /* AddHabitacionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8D6D2637CA640020CC45 /* AddHabitacionViewController.swift */; };
 		CEABEFC926392080009618B9 /* PruebasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABEFC826392080009618B9 /* PruebasViewController.swift */; };
@@ -44,11 +42,9 @@
 		CE60D0012626647D00D32E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE60D0032626647D00D32E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE60D0082626647D00D32E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6405B92644BAAD005234B3 /* InfoPerfilUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPerfilUsuarioViewController.swift; sourceTree = "<group>"; };
 		CE8A8D3E2636FA560020CC45 /* QRCodeScannerFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QRCodeScannerFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8A8D402636FA600020CC45 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE8A8D42263701710020CC45 /* CameraQrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraQrViewController.swift; sourceTree = "<group>"; };
-		CE8A8D442637030A0020CC45 /* RegistrarUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarUsuarioViewController.swift; sourceTree = "<group>"; };
-		CE8A8D67263738CA0020CC45 /* RegistrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarViewController.swift; sourceTree = "<group>"; };
 		CE8A8D6B2637CA4C0020CC45 /* AddSensorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSensorViewController.swift; sourceTree = "<group>"; };
 		CE8A8D6D2637CA640020CC45 /* AddHabitacionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitacionViewController.swift; sourceTree = "<group>"; };
 		CEABEFC826392080009618B9 /* PruebasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebasViewController.swift; sourceTree = "<group>"; };
@@ -137,13 +133,11 @@
 			isa = PBXGroup;
 			children = (
 				CE60CFFE2626647D00D32E91 /* ViewController.swift */,
-				CE8A8D67263738CA0020CC45 /* RegistrarViewController.swift */,
-				CE8A8D442637030A0020CC45 /* RegistrarUsuarioViewController.swift */,
 				CE41558826355B4700579F77 /* LogInViewController.swift */,
-				CE8A8D42263701710020CC45 /* CameraQrViewController.swift */,
 				CEC56EBD2634F098008AF6FB /* SensorViewController.swift */,
-				CE8A8D6B2637CA4C0020CC45 /* AddSensorViewController.swift */,
+				CE6405B92644BAAD005234B3 /* InfoPerfilUsuarioViewController.swift */,
 				CE8A8D6D2637CA640020CC45 /* AddHabitacionViewController.swift */,
+				CE8A8D6B2637CA4C0020CC45 /* AddSensorViewController.swift */,
 				CEABEFC826392080009618B9 /* PruebasViewController.swift */,
 			);
 			path = Controllers;
@@ -269,14 +263,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8A8D43263701710020CC45 /* CameraQrViewController.swift in Sources */,
-				CE8A8D452637030A0020CC45 /* RegistrarUsuarioViewController.swift in Sources */,
 				CE8A8D6C2637CA4C0020CC45 /* AddSensorViewController.swift in Sources */,
-				CE8A8D68263738CA0020CC45 /* RegistrarViewController.swift in Sources */,
 				CE60CFFF2626647D00D32E91 /* ViewController.swift in Sources */,
 				CEABEFC926392080009618B9 /* PruebasViewController.swift in Sources */,
 				CE60CFFD2626647D00D32E91 /* AppDelegate.swift in Sources */,
 				CEC56EBE2634F098008AF6FB /* SensorViewController.swift in Sources */,
+				CE6405BA2644BAAD005234B3 /* InfoPerfilUsuarioViewController.swift in Sources */,
 				CE41558926355B4700579F77 /* LogInViewController.swift in Sources */,
 				CE8A8D6E2637CA640020CC45 /* AddHabitacionViewController.swift in Sources */,
 			);

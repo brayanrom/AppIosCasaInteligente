@@ -13,9 +13,10 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var urlServicio:String="smarthouse.onthewifi.com"
+    var urlServicio:String="https://159.65.180.20:3333"
     var Token = ""
-    
+    var rol_id=0
+    var id=0
     
     //mensaje emergente
     func mensajeEnergente(titulo:String,contenido:String,aceptar:String,vista:UIViewController){
